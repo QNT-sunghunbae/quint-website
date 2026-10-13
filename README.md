@@ -2,7 +2,7 @@
 
 Official bilingual corporate website for **QUINT Co., Ltd. (주식회사 퀸트)**, an AI technology developer based in Gwangju, South Korea. It highlights the company's on-device safety solution **ON-SIGHT**, computer vision, embedded intelligence, digital twins, robotics and R&D approach.
 
-> **Data provenance:** The company identity, contact details, and ON-SIGHT capabilities are based on the corporate profile supplied by QUINT. The hero illustration and architecture diagram are *conceptual representations*, not measured performance, deployed hardware photographs, or customer evidence. ON-SIGHT product UI is excerpted from the supplied company profile. No unverified deployment counts, accuracy metrics, revenue, patents or certifications are claimed.
+> **Data provenance:** The company identity, contact details, and ON-SIGHT capabilities are based on the corporate profile supplied by QUINT. The hero illustration and architecture diagram are *conceptual representations*, not measured performance, deployed hardware photographs, or customer evidence. ON-SIGHT interface artwork is a concept illustration, not a screenshot. No unverified deployment counts, accuracy metrics, revenue, patents or certifications are claimed.
 
 ## Live URL / 배포 주소
 
@@ -20,12 +20,12 @@ After GitHub Pages is enabled: https://qnt-sunghunbae.github.io/quint-website/
 ├── styles.css             # Responsive design system and layouts
 ├── script.js              # Korean/English texts, menu and language controls
 ├── assets/
-│   ├── quint-wordmark.png # Actual wordmark extracted from supplied QUINT company profile
-│   ├── quint-emblem.png   # Actual emblem extracted from supplied QUINT company profile
-│   ├── onsight-interface.webp # Product UI image excerpted from company profile
-│   ├── favicon.png
-│   ├── apple-touch-icon.png
-│   └── social-card.png
+│   ├── quint-wordmark.svg # Brand-colored SVG wordmark (stylized adaptation; replace with original vector CI when available)
+│   ├── quint-emblem.svg   # Vector-style QUINT emblem
+│   ├── onsight-interface.svg # Illustrative ON-SIGHT system graphic, not a product screenshot
+│   ├── favicon.svg
+│   ├── favicon.svg
+│   └── social-card.svg
 ├── robots.txt
 ├── sitemap.xml
 ├── .nojekyll
@@ -62,8 +62,8 @@ Every later commit to the selected publishing branch triggers a Pages rebuild (s
 | New sections/layout | `index.html` |
 | Colors, spacing, responsive rules | `styles.css` |
 | Contact email/phone | `index.html` contact links and both languages' related labels in `script.js` |
-| Official company logo | `assets/quint-wordmark.png` and `assets/quint-emblem.png` |
-| Social sharing image | `assets/social-card.png` and `index.html` OG image metadata |
+| Official company logo | `assets/quint-wordmark.svg` and `assets/quint-emblem.svg` |
+| Social sharing image | `assets/social-card.svg` and `index.html` OG image metadata |
 | Future custom domain | GitHub Pages settings + DNS; adjust canonical, hreflang, OG URLs, robots/sitemap, schema.org |
 
 Keep `assets/*` and relative URLs intact for Pages paths under `/quint-website/`. Avoid storing API credentials in this public repository. The contact action is a `mailto:` link, not a backend form; no messages are processed on the site.
@@ -80,4 +80,4 @@ Keep `assets/*` and relative URLs intact for Pages paths under `/quint-website/`
 
 No analytics, cookies, third-party scripts, external font CDNs, API keys or paid services are used.
 
-Copyright © QUINT Co., Ltd. All rights reserved. The images extracted from the supplied company profile are company materials; this repository does not grant a public reuse license.
+Copyright © QUINT Co., Ltd. All rights reserved. Original company trademarks remain the property of QUINT. This repository does not grant a public reuse license.
