@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://qnt-sunghunbae.github.io/quint-website/sitemap.xml
